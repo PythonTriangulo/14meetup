@@ -24,33 +24,35 @@ Engajamento da população no processo eleitoral
 		http://agencia.tse.jus.br/estatistica/sead/odsele/votacao_partido_munzona/votacao_partido_munzona_2018.zip
 		Não limitar ao periodo de 2018
 
+Arquitetura de Software:
 
-Arquitetura de software.
-
-	Storage
-		ORM
-	Modulo que consulta
-
+    Storage
+        ORM
+    Modulo que consulta
 	Modulo de normalização
 	Modulo de consolidação
 	Dashboards
 
+Linguagem:
 
-Linguagem
-	Python 3.7
+    Python 3.7
 
-Bibliotecas.
-	AlchemyDB	- ORM
-	Bonobo		- ETL
-	matplotlib	- PLOT
-	django		- Front
-	flask		- Front
-	pandas		- Tratamento de dados
-	requests	- Requisição REST
+Bibliotecas:
 
-Ferramentas.
+	AlchemyDB   - ORM
+	Bonobo      - ETL
+	matplotlib  - PLOT
+	django      - Front
+	flask       - Front
+	pandas      - Tratamento de dados
+	requests    - Requisição REST
+
+Ferramentas:
+
 	Power BI
-	AWS S3
+	Amazon AWS S3
 
-Formato das bases
-	CSV, REST, 
+Formato das bases:
+	
+	CSV
+	REST
